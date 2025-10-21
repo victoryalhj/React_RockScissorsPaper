@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px;
+  padding: 5px;
 }
 .container {
   display: flex;
@@ -29,13 +29,17 @@ body {
   margin: 10px;
 }
 .main button {
-  border: 1px solid gray;
+  border: 3px solid black;
   border-radius: 10px;
   background-color: white;
   margin: 5px;  
   padding: 2vw;  
   font-size: 2vw;
   font-weight: 800;
+  cursor: pointer;
+}
+.main button:hover {
+  background-color: rgb(180, 255, 75)
 }
 .box {
   border: 1px solid black;
@@ -67,7 +71,7 @@ body {
 @media screen and (max-width:430px) {
   body {
     align-items: flex-start;
-    padding: 20px 0;
+    padding: 5px 0;
   }
   .container {
     width: 90%;
@@ -75,7 +79,7 @@ body {
   }
   .container h1 {
     text-align: center;
-    padding: 0;
+    padding: 5px;
     margin: 3px 0 0 0;
     font-size: 1.5rem;
 }
@@ -113,13 +117,16 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0 0 10px 0;
+    padding: 0;
   }
   .main button {
     margin: 0px 3px;  
     padding: 5px;  
     font-size: 1rem;
     font-weight: 600;
+    color: black;
   }
+
   .win {
     border: 10px solid green;
   }
