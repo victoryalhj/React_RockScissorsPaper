@@ -19,11 +19,11 @@ const choice = {
   },
   scissors: {
     name: "scissors",
-    img: "./img/scissors.png",
+    img: "/img/scissors.png",
   },
   paper: {
     name: "paper",
-    img: "./img/paper.png",
+    img: "/img/paper.png",
   },
 };
 

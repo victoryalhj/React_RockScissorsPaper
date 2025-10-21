@@ -12,7 +12,7 @@ const Box = (props) => {
 
   return <div className={`box ${result}`}>
     <h1>{props.title}</h1>
-    <img className='item-img' src={props.item?.img || "./img/questionMark2.png"} />
+    <img className='item-img' src={props.item?.img || "/img/questionMark2.png"} />
     <h2>{result}</h2>
   </div> 
 }
