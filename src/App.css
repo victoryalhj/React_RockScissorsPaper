@@ -76,6 +76,7 @@ body {
   .container h1 {
     text-align: center;
     padding: 0;
+    margin: 3px 0 0 0;
     font-size: 1.5rem;
 }
   .main {
@@ -83,21 +84,31 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    gap: 10px;
   }
   .item-img {
     width: 65%;
+    height: auto;
   }
   .box {
     border: 1px solid black;
     width: 80%;
-    height: 30vh;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
     background-color: hsl(0, 12%, 95%);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
+  .box h1, .box h2 {
+    font-size: 1em;
+    word-break: break-word;
+    margin: 5px 0;
+  }
   .btn {
     display: flex;
     flex-direction: row;
@@ -109,5 +120,13 @@ body {
     font-size: 1rem;
     font-weight: 600;
   }
-
+  .win {
+    border: 10px solid green;
+  }
+  .lose {
+      border: 10px solid red;
+  }
+  .tie {
+      border: 10px solid black;
+  }
 }
